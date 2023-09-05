@@ -5,6 +5,7 @@ import tailwind from '@astrojs/tailwind';
 
 // https://astro.build/config
 export default defineConfig({
+  site: 'https://cv.durrstudios.github.io',
   integrations: [tailwind()],
   vite: {
     ssr: {
